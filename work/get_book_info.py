@@ -42,7 +42,7 @@ def demo2():
         time.sleep(1)
     print('completed')
 
-    with open('book_data.tsv', 'w', encodintf='utf-8') as f:
+    with open('book_data.tsv', 'w', encoding='utf-8') as f:
         for book_info in book_info_list:
             f.write('\t'.join(book_info) + '\n')
 
