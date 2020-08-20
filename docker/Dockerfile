@@ -10,5 +10,7 @@ WORKDIR /opt
 RUN pip install pipenv \
  && pipenv sync
 
-ENTRYPOINT ["pipenv", "run", "python", "/opt/pybotweb/pybotweb.py"]
+WORKDIR /opt/pybotweb
+
+ENTRYPOINT ["pipenv", "run", "python", "pybotweb.py"]
 
