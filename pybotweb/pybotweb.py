@@ -15,4 +15,4 @@ def do_hello():
     return template('pybot_template', input_text=input_text, output_text=output_text)
 
 
-run(host='localhost', port=8080, debug=True)
+run(host='0.0.0.0', port=8080, debug=True)
