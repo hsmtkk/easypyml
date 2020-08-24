@@ -9,6 +9,11 @@ verify_ssl = true
 bottle = "*"
 requests = "*"
 beautifulsoup4 = "*"
+scikit-learn = "*"
+pillow = "*"
+numpy = "*"
+matplotlib = "*"
+jupyterlab = "*"
 
 [requires]
 python_version = "3.8"
